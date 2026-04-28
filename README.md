@@ -2,7 +2,7 @@
 
 Repositori ini berisi serangkaian eksperimen data mining untuk memprediksi kelompok usia biologis (*Biological Age Group*) berdasarkan data medis dan gaya hidup. Fokus utama dari proyek ini adalah mengeksplorasi dan membandingkan berbagai teknik **Seleksi Fitur** (*Feature Selection*) dan **Reduksi Dimensi** (*Dimensionality Reduction*) untuk mengoptimalkan performa model klasifikasi Machine Learning.
 
-## 📊 Dataset
+##  Dataset
 Dataset yang digunakan berasal dari Kaggle, berisi data rekam medis dan kebiasaan pasien:
 - **Jumlah Data**: 3.000 baris (Training) & 3.000 baris (Testing)
 - **Fitur**: 27 fitur awal (demografi, biomarker seperti tekanan darah, glukosa, dan kepadatan tulang, serta data gaya hidup) yang diekspansi menjadi 35 fitur setelah preprocessing (One-Hot Encoding, dll).

@@ -9,7 +9,7 @@ Dataset yang digunakan berasal dari Kaggle, berisi data rekam medis dan kebiasaa
 - **Target Asli**: `Age (years)` (Regresi, rentang usia 18-89 tahun).
 - **Target Model**: `Age_Group` (Klasifikasi 4 kelas: Dewasa Muda, Dewasa, Paruh Baya, Lansia), dikonversi melalui teknik *binning* untuk menyeimbangkan distribusi kelas.
 
-## 📂 Struktur Proyek
+##  Struktur Proyek
 
 Proyek ini disusun secara sekuensial ke dalam beberapa Jupyter Notebook:
 
@@ -28,7 +28,7 @@ Proyek ini disusun secara sekuensial ke dalam beberapa Jupyter Notebook:
 7. **`06_lda_komparasi.ipynb`**
    Reduksi dimensi *supervised* menggunakan **Linear Discriminant Analysis (LDA)** (3 komponen) dan komparasi final dari seluruh skenario.
 
-## 🏆 Hasil dan Kesimpulan Utama
+##  Hasil dan Kesimpulan Utama
 
 Eksperimen dievaluasi menggunakan *Stratified 5-Fold Cross Validation*.
 
@@ -46,7 +46,7 @@ Eksperimen dievaluasi menggunakan *Stratified 5-Fold Cross Validation*.
 **Rekomendasi Deployment:**
 Model **Random Forest + Filter Method (18 fitur)** direkomendasikan karena memberikan performa F1-Score tertinggi (81.2%), fitur tetap dapat diinterpretasi secara medis, dan model sangat *robust*.
 
-## 🚀 Cara Menjalankan (Installation & Usage)
+##  Cara Menjalankan (Installation & Usage)
 
 1. Clone repositori ini:
    ```bash
